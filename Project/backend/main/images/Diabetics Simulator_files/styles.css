@@ -1,0 +1,152 @@
+body {
+  font-size: 16px;
+  color: Grey;
+  background-color: #ffff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  opacity: 1.25;
+}
+
+#Simulator {
+  border-radius: 0;
+  border: 0;
+  font-size: 30px;
+  color: Grey;
+  font-family: sans-serif;
+}
+
+#Simulator a:hover, #Simulator a:focus {
+  text-decoration: none;
+}
+
+
+#logo-img {
+  background: url('../images/download.jpg') no-repeat;
+  width: 200px;
+  height: 196px;
+  margin: 10px ;
+
+}
+
+#title{
+  color: Grey;
+  font-weight:bolder;
+    text-shadow: 1px 1px 1px #222;
+
+}
+
+.navbar-brand {
+  padding-top: 90px;
+}
+
+.navbar-brand #title1 {
+  font-family: 'Lora', serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-style: normal;
+  text-align: center;
+}
+
+.navbar-light{
+    padding-top: 90px;
+    float: right;
+    margin-left: 150px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#twitter{
+  background: url('../images/twitter.png') no-repeat;
+  width: 20px;
+  height: 20px;
+  margin: 0px ;
+
+}
+#facebook{
+  background: url('../images/facebook.png') no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  border-color: grey;
+  margin-right: 10px;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/main1.jpg' ) no-repeat;
+    box-shadow: 0 0 70px #3F0C1F;
+    width: 1180px;
+    height: 600px;
+    padding-left: 120px;
+    margin-left: 0px;
+    margin-right: 120px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #logo-img {
+    background: url('../images/Dia.jpg') no-repeat;
+    width: 450px;
+    height: 260px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .container .jumbotron {
+    background: url('../images/Dia.jpg') no-repeat;
+    height: 260px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container .jumbotron {
+    background: url('../images/images.jpg') no-repeat;
+    height: 432px;
+  }
+
+}
+.simmain{
+  width: 450px;
+  height: 500px;
+}
+
+.panel-footer {
+  margin-top: 40px;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  background-color: #222;
+  border-top: 0;
+}
+
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
