@@ -1,4 +1,4 @@
-This prohect is part of the course-era Getting and cleaning data. The data is read from: Human Activity Recognition Using the Smartphones.
+This project is part of the course-era Getting and cleaning data. The data is read from: Human Activity Recognition Using the Smartphones.
 
 The steps followed for this project are as follows:
 A.Download the zip file.
